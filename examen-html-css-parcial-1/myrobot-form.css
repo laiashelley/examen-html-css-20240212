@@ -1,0 +1,138 @@
+body {
+  background-color: rgba(245, 250, 199);
+  overflow: scroll;
+}
+
+/* header */
+
+header {
+  background-color: rgb(189, 218, 165);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 5px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  img {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    opacity: 75%;
+  }
+  i:hover {
+    color: rgba(245, 250, 199, 1);
+  }
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  color: rgba(56, 91, 102, 1);
+}
+
+aside {
+  margin-left: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgba(245, 250, 199, 1);
+}
+
+/* body */
+
+fieldset {
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-h1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(56, 91, 102, 1);
+  animation: title-h1 1s infinite;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 10px;
+  padding: 10px;
+}
+
+label {
+  margin: 10px 10px 10px;
+}
+
+input,
+textarea {
+  margin-left: 10px;
+}
+
+input {
+  padding: 20px;
+  width: 800px;
+}
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+input[type="submit"] {
+  background-color: rgba(84, 142, 135, 0.747);
+  color: rgba(245, 250, 199, 1);
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  max-width: 100px;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* footer */
+
+footer {
+  max-width: 1859px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background: rgb(189, 218, 165);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(56, 91, 102, 1);
+}
+
+@keyframes title-h1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
